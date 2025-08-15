@@ -1,0 +1,2304 @@
+
+void ___stack_chk_fail(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR____stack_chk_fail_0008c4d0)();
+  return;
+}
+
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void * __Block_copy(void *aBlock)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e380. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___Block_copy_0008c4a8)();
+  return aBlock;
+}
+
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void __Block_object_assign(void *param_1,void *param_2,int param_3)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e390. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___Block_object_assign_0008c4b0)(param_1,param_2,param_3);
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void __Block_object_dispose(void *param_1,int param_2)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___Block_object_dispose_0008c4b8)(param_1,param_2);
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void __Block_release(void *aBlock)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___Block_release_0008c4c0)();
+  return;
+}
+
+char * __ClampDate(char *param_1)
+
+{
+  char *pcVar1;
+  char *pcVar2;
+  char *pcVar3;
+  char *pcVar4;
+  undefined4 local_50;
+  char *local_4c;
+  undefined2 local_44;
+  char *local_42;
+  long local_38;
+  
+  local_38 = *(long *)PTR____stack_chk_guard_0008ce00;
+  _objc_retain();
+  pcVar1 = PTR__OBJC_CLASS_$_NSDate_0008ce30;
+  FUN_00061720(PTR__OBJC_CLASS_$_NSDate_0008ce30);
+  _objc_claimAutoreleasedReturnValue();
+  pcVar4 = pcVar1;
+  if (param_1 != (char *)0x0) {
+    pcVar2 = pcVar1;
+    FUN_00061340(pcVar1);
+    if (pcVar2 == (char *)0xffffffffffffffff) {
+      _IMOSLoggingEnabled();
+      if ((int)pcVar2 != 0) {
+        pcVar4 = "SMS";
+        _OSLogHandleForIMFoundationCategory();
+        _objc_claimAutoreleasedReturnValue();
+        pcVar2 = pcVar4;
+        _os_log_type_enabled();
+        if ((int)pcVar2 != 0) {
+          local_50 = 0x8400202;
+          local_44 = 0x840;
+          pcVar2 = (char *)0x0;
+          local_4c = param_1;
+          local_42 = pcVar1;
+          __os_log_impl(0,pcVar4,1," * Clamping date %@ to current date (%@)",&local_50,0x16);
+        }
+        _objc_release_x21();
+      }
+      _objc_retain_x20();
+      _objc_release_x19();
+      pcVar4 = pcVar2;
+    }
+    else {
+      pcVar4 = param_1;
+      if (pcVar2 == (char *)((long)&MACH_HEADER.magic + 1)) {
+        _IMOSLoggingEnabled();
+        if ((int)pcVar2 != 0) {
+          pcVar2 = "SMS";
+          _OSLogHandleForIMFoundationCategory();
+          _objc_claimAutoreleasedReturnValue();
+          pcVar3 = pcVar2;
+          _os_log_type_enabled();
+          if ((int)pcVar3 != 0) {
+            local_50 = 0x8400202;
+            local_44 = 0x840;
+            local_4c = param_1;
+            local_42 = pcVar1;
+            __os_log_impl(0,pcVar2,1," * Date descending vs current (%@ vs %@)",&local_50,0x16);
+          }
+          _objc_release_x21();
+        }
+      }
+      else if ((pcVar2 == (char *)0x0) && (_IMOSLoggingEnabled(), (int)pcVar2 != 0)) {
+        pcVar2 = "SMS";
+        _OSLogHandleForIMFoundationCategory();
+        _objc_claimAutoreleasedReturnValue();
+        pcVar3 = pcVar2;
+        _os_log_type_enabled();
+        if ((int)pcVar3 != 0) {
+          local_50 = 0x8400202;
+          local_44 = 0x840;
+          local_4c = param_1;
+          local_42 = pcVar1;
+          __os_log_impl(0,pcVar2,1," * Date is the same as current (%@ vs %@)",&local_50,0x16);
+        }
+        _objc_release_x21();
+      }
+    }
+  }
+  _objc_retainAutoreleaseReturnValue(pcVar4);
+  _objc_release_x20();
+  _objc_release_x21();
+  if (*(long *)PTR____stack_chk_guard_0008ce00 != local_38) {
+                    /* WARNING: Subroutine does not return */
+    ___stack_chk_fail();
+  }
+  return pcVar4;
+}
+
+
+void __FTAreIDsEquivalent(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___FTAreIDsEquivalent_0008c148)();
+  return;
+}
+
+void __FZErrorTypeFromNSError(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___FZErrorTypeFromNSError_0008c150)();
+  return;
+}
+
+
+void __FZErrorTypeFromNSError(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___FZErrorTypeFromNSError_0008c150)();
+  return;
+}
+void __os_activity_create(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e400. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___os_activity_create_0008c4d8)();
+  return;
+}
+
+void __os_log_error_impl(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e410. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___os_log_error_impl_0008c4e0)();
+  return;
+}
+
+void __os_log_fault_impl(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e420. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___os_log_fault_impl_0008c4e8)();
+  return;
+}
+
+void __os_log_impl(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e430. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___os_log_impl_0008c4f0)();
+  return;
+}
+
+void __sl_dlopen(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e440. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___sl_dlopen_0008c650)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void __Unwind_Resume(_Unwind_Exception *exception_object)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e3e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR___Unwind_Resume_0008c4c8)();
+  return;
+}
+
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+u_int32_t _arc4random_uniform(u_int32_t param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e450. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__arc4random_uniform_0008c4f8)();
+  return param_1;
+}
+
+void _CFDictionaryCreateMutable(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFDictionaryCreateMutable_0008c5d0)();
+  return;
+}
+
+void _CFDictionaryGetValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de20. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFDictionaryGetValue_0008c5d8)();
+  return;
+}
+
+void _CFDictionarySetValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de30. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFDictionarySetValue_0008c5e0)();
+  return;
+}
+
+void _CFEqual(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de40. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFEqual_0008c5e8)();
+  return;
+}
+
+void _CFNotificationCenterAddObserver(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de50. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFNotificationCenterAddObserver_0008c5f0)();
+  return;
+}
+
+void _CFNotificationCenterGetDarwinNotifyCenter(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de60. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFNotificationCenterGetDarwinNotifyCenter_0008c5f8)();
+  return;
+}
+
+void _CFNotificationCenterGetDistributedCenter(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de70. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFNotificationCenterGetDistributedCenter_0008c600)();
+  return;
+}
+
+void _CFNotificationCenterPostNotification(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFNotificationCenterPostNotification_0008c608)();
+  return;
+}
+
+void _CFNotificationCenterRemoveObserver(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005de90. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFNotificationCenterRemoveObserver_0008c610)();
+  return;
+}
+
+void _CFPreferencesGetAppBooleanValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dea0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFPreferencesGetAppBooleanValue_0008c618)();
+  return;
+}
+
+void _CFPreferencesSetAppValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005deb0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFPreferencesSetAppValue_0008c620)();
+  return;
+}
+
+void _CFPreferencesSynchronize(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dec0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFPreferencesSynchronize_0008c628)();
+  return;
+}
+
+void _CFRelease(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ded0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFRelease_0008c630)();
+  return;
+}
+
+void _CFStringCreateWithFileSystemRepresentation(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dee0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFStringCreateWithFileSystemRepresentation_0008c638)();
+  return;
+}
+
+void _CFStringCreateWithFormat(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005def0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CFStringCreateWithFormat_0008c640)();
+  return;
+}
+
+void _CMFBlockListIsItemBlocked(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df00. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CMFBlockListIsItemBlocked_0008c120)();
+  return;
+}
+
+void _CMFItemCreateWithEmailAddress(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CMFItemCreateWithEmailAddress_0008c128)();
+  return;
+}
+
+void _CMFItemCreateWithPhoneNumber(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df20. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CMFItemCreateWithPhoneNumber_0008c130)();
+  return;
+}
+
+void _CTTelephonyCenterAddObserver(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df30. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CTTelephonyCenterAddObserver_0008c220)();
+  return;
+}
+void _CTTelephonyCenterGetDefault(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df40. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CTTelephonyCenterGetDefault_0008c228)();
+  return;
+}
+
+void _CTTelephonyCenterRemoveObserver(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df50. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__CTTelephonyCenterRemoveObserver_0008c230)();
+  return;
+}
+
+void _dispatch_after(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e460. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_after_0008c500)();
+  return;
+}
+
+void _dispatch_async(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e470. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_async_0008c508)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+dispatch_group_t _dispatch_group_create(void)
+
+{
+  dispatch_group_t in_x0;
+  
+                    /* WARNING: Could not recover jumptable at 0x0005e480. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_group_create_0008c510)();
+  return in_x0;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void _dispatch_group_enter(dispatch_group_t group)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e490. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_group_enter_0008c518)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void _dispatch_group_leave(dispatch_group_t group)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_group_leave_0008c520)();
+  return;
+}
+
+void _dispatch_group_notify(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_group_notify_0008c528)();
+  return;
+}
+
+void _dispatch_once(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_once_0008c530)();
+  return;
+}
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void _dispatch_release(dispatch_object_t object)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_release_0008c538)();
+  return;
+}
+
+void _dispatch_sync(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_sync_0008c540)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+dispatch_time_t _dispatch_time(dispatch_time_t when,int64_t delta)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e4f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__dispatch_time_0008c548)();
+  return when;
+}
+
+void _FastRandomUInt(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df60. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__FastRandomUInt_0008c008)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void _free(void *param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e500. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__free_0008c550)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+char * _getenv(char *param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e510. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__getenv_0008c558)();
+  return param_1;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+uid_t _geteuid(void)
+
+{
+  uid_t in_w0;
+  
+                    /* WARNING: Could not recover jumptable at 0x0005e520. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__geteuid_0008c560)();
+  return in_w0;
+}
+
+
+void _getpwuid(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e530. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__getpwuid_0008c568)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+uid_t _getuid(void)
+
+{
+  uid_t in_w0;
+  
+                    /* WARNING: Could not recover jumptable at 0x0005e540. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__getuid_0008c570)();
+  return in_w0;
+}
+
+void _HSAAuthenticationProcessIncomingMessage(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df70. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__HSAAuthenticationProcessIncomingMessage_0008c238)();
+  return;
+}
+
+void _IDSCopyIDForDevice(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IDSCopyIDForDevice_0008c138)();
+  return;
+}
+
+void _IDSCopyIDForPhoneNumber(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005df90. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IDSCopyIDForPhoneNumber_0008c140)();
+  return;
+}
+
+void _IDSGetUUIDData(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dfa0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IDSGetUUIDData_0008c648)();
+  return;
+}
+
+
+void _IMBalloonExtensionIDWithSuffix(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dfb0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMBalloonExtensionIDWithSuffix_0008c160)();
+  return;
+}
+
+void _IMChatCanonicalIDSIDsForAddress(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dfc0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMChatCanonicalIDSIDsForAddress_0008c168)();
+  return;
+}
+
+void _IMCopyNormalizedAttributes(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dfd0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMCopyNormalizedAttributes_0008c170)();
+  return;
+}
+
+void _IMCopySafeNameOfFontFamilyName(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dfe0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMCopySafeNameOfFontFamilyName_0008c178)();
+  return;
+}
+
+void _IMCountryCodeForIncomingTextMessage(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005dff0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMCountryCodeForIncomingTextMessage_0008c010)();
+  return;
+}
+
+void _IMCreateEscapedAttributeValueFromString(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e000. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMCreateEscapedAttributeValueFromString_0008c180)();
+  return;
+}
+
+void _IMCreateEscapedStringFromString(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e010. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMCreateEscapedStringFromString_0008c188)();
+  return;
+}
+
+void _IMDAreAllAliasesUnknown(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e020. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMDAreAllAliasesUnknown_0008c218)();
+  return;
+}
+
+void _IMExtensionPayloadUnarchivingClasses(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e030. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMExtensionPayloadUnarchivingClasses_0008c190)();
+  return;
+}
+
+void _IMFileURLIsActuallyAnimated(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e040. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMFileURLIsActuallyAnimated_0008c198)();
+  return;
+}
+
+void _IMFormattedDisplayStringForID(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e050. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMFormattedDisplayStringForID_0008c018)();
+  return;
+}
+
+void _IMGenerateLoginID(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e060. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGenerateLoginID_0008c020)();
+  return;
+}
+
+void _IMGetCachedDomainBoolForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e070. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGetCachedDomainBoolForKey_0008c028)();
+  return;
+}
+void _IMGetCachedDomainIntForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e080. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGetCachedDomainIntForKey_0008c030)();
+  return;
+}
+
+void _IMGetCachedDomainValueForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e090. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGetCachedDomainValueForKey_0008c038)();
+  return;
+}
+
+void _IMGetDomainBoolForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGetDomainBoolForKey_0008c040)();
+  return;
+}
+
+void _IMGetDomainValueForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGetDomainValueForKey_0008c048)();
+  return;
+}
+
+void _IMGreenTeaMessageTransmitLog(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMGreenTeaMessageTransmitLog_0008c1a0)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+bool _IMiMessageShouldSendLowResolutionOnly(ID param_1,SEL param_2)
+
+{
+  bool bVar1;
+  
+  bVar1 = (bool)param_1;
+                    /* WARNING: Could not recover jumptable at 0x0005e290. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMiMessageShouldSendLowResolutionOnly_0008c0d0)();
+  return bVar1;
+}
+
+void _IMiMessageSizeLimitsForTransferType(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMiMessageSizeLimitsForTransferType_0008c0d8)();
+  return;
+}
+
+void _IMLogHandleForCategory(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMLogHandleForCategory_0008c1a8)();
+  return;
+}
+
+void _IMLogString(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMLogString_0008c050)();
+  return;
+}
+
+void _IMMMSPartCombinationCanBeSent(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e0f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMMMSPartCombinationCanBeSent_0008c058)();
+  return;
+}
+
+void _IMNormalizedPhoneNumberForCFPhoneNumberRef(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e120. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMNormalizedPhoneNumberForCFPhoneNumberRef_0008c068)();
+  return;
+}
+
+void _IMNormalizeFormattedString(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e100. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMNormalizeFormattedString_0008c060)();
+  return;
+}
+
+void _IMNormalizePhoneNumber(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e110. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMNormalizePhoneNumber_0008c1b0)();
+  return;
+}
+
+void _IMOSLoggingEnabled(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e130. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMOSLoggingEnabled_0008c070)();
+  return;
+}
+
+void _IMPhoneNumberRefCopyForPhoneNumber(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e140. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMPhoneNumberRefCopyForPhoneNumber_0008c078)();
+  return;
+}
+
+
+void _IMPreferredAccountMap(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e150. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMPreferredAccountMap_0008c080)();
+  return;
+}
+
+void _IMPreviewConstraintsZero(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e160. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMPreviewConstraintsZero_0008c1b8)();
+  return;
+}
+
+void _IMSafeTemporaryDirectory(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e180. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSafeTemporaryDirectory_0008c1c0)();
+  return;
+}
+
+void _IMSetDomainBoolForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e190. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSetDomainBoolForKey_0008c090)();
+  return;
+}
+
+void _IMSetDomainValueForKey(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSetDomainValueForKey_0008c098)();
+  return;
+}
+
+void _IMSharedHelperDeviceHasMultipleActiveSubscriptions(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperDeviceHasMultipleActiveSubscriptions_0008c1c8)();
+  return;
+}
+
+void _IMSharedHelperDeviceHasMultipleSubscriptions(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperDeviceHasMultipleSubscriptions_0008c1d0)();
+  return;
+}
+
+void _IMSharedHelperDeviceHasMultipleSubscriptionsWithAtLeastOneActive(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperDeviceHasMultipleSubscriptionsWithAtLeastOneActive_0008c1d8)();
+  return;
+}
+
+void _IMSharedHelperDeviceIsAltAccount(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperDeviceIsAltAccount_0008c1e0)();
+  return;
+}
+
+void _IMSharedHelperDeviceIsiPad(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e1f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperDeviceIsiPad_0008c1e8)();
+  return;
+}
+void _IMSharedHelperRetrieveSimDetailsFromTelephony(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e200. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedHelperRetrieveSimDetailsFromTelephony_0008c1f0)();
+  return;
+}
+
+void _IMSharedUtilitiesFrameworkBundle(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e210. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSharedUtilitiesFrameworkBundle_0008c1f8)();
+  return;
+}
+
+void _IMShouldHandleInternalPhishingAttempts(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e220. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMShouldHandleInternalPhishingAttempts_0008c200)();
+  return;
+}
+
+void _IMShouldLog(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e230. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMShouldLog_0008c0a0)();
+  return;
+}
+void _IMSingleObjectArray(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e240. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSingleObjectArray_0008c0a8)();
+  return;
+}
+
+void _IMSMSEnabled(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e170. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSMSEnabled_0008c088)();
+  return;
+}
+
+void _IMStringIsEmail(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e250. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMStringIsEmail_0008c0b0)();
+  return;
+}
+
+
+void _IMSyncronizeAppPreferences(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e270. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMSyncronizeAppPreferences_0008c0c0)();
+  return;
+}
+
+void _IMWeakLinkClass(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e280. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__IMWeakLinkClass_0008c0c8)();
+  return;
+}
+
+void _im_dispatch_after(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e550. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__im_dispatch_after_0008c118)();
+  return;
+}
+
+void _JWDecodeDictionary(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__JWDecodeDictionary_0008c0e0)();
+  return;
+}
+void _JWEncodeDictionary(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__JWEncodeDictionary_0008c0e8)();
+  return;
+}
+
+void _JWUUIDPushObjectToString(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__JWUUIDPushObjectToString_0008c0f0)();
+  return;
+}
+
+
+void _malloc_size(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e560. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__malloc_size_0008c578)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void * _memcpy(void *param_1,void *param_2,size_t param_3)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e570. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__memcpy_0008c580)();
+  return param_1;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+void * _memmove(void *param_1,void *param_2,size_t param_3)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e580. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__memmove_0008c588)();
+  return param_1;
+}
+
+void _MarcoLoggingStringForMessageData(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__MarcoLoggingStringForMessageData_0008c270)();
+  return;
+}
+
+void _notify_register_check(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e590. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__notify_register_check_0008c590)();
+  return;
+}
+
+
+void _notify_set_state(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__notify_set_state_0008c598)();
+  return;
+}
+
+void _NSLog(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e2f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__NSLog_0008c260)();
+  return;
+}
+
+void _NSStringFromSelector(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e300. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__NSStringFromSelector_0008c268)();
+  return;
+}
+
+void _objc_alloc(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_alloc_0008c280)();
+  return;
+}
+
+void _objc_alloc_init(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_alloc_init_0008c290)();
+  return;
+}
+
+void _objc_allocWithZone(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_allocWithZone_0008c288)();
+  return;
+}
+
+void _objc_autorelease(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_autorelease_0008c298)();
+  return;
+}
+
+void _objc_autoreleasePoolPop(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e5f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_autoreleasePoolPop_0008c2a0)();
+  return;
+}
+
+void _objc_autoreleasePoolPush(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e600. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_autoreleasePoolPush_0008c2a8)();
+  return;
+}
+
+void _objc_autoreleaseReturnValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e610. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_autoreleaseReturnValue_0008c2b0)();
+  return;
+}
+
+
+void _objc_begin_catch(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e620. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_begin_catch_0008c2b8)();
+  return;
+}
+
+void _objc_claimAutoreleasedReturnValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e630. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_claimAutoreleasedReturnValue_0008c2c0)();
+  return;
+}
+
+
+void _objc_copyWeak(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e640. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_copyWeak_0008c2c8)();
+  return;
+}
+
+void _objc_destroyWeak(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e650. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_destroyWeak_0008c2d0)();
+  return;
+}
+
+void _objc_end_catch(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e660. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_end_catch_0008c2d8)();
+  return;
+}
+
+void _objc_enumerationMutation(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e670. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_enumerationMutation_0008c2e0)();
+  return;
+}
+void _objc_getAssociatedObject(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e680. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_getAssociatedObject_0008c2e8)();
+  return;
+}
+
+void _objc_getClass(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e690. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_getClass_0008c2f0)();
+  return;
+}
+
+void _objc_initWeak(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_initWeak_0008c2f8)();
+  return;
+}
+
+
+void _objc_loadWeak(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_loadWeak_0008c300)();
+  return;
+}
+
+void _objc_loadWeakRetained(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_loadWeakRetained_0008c308)();
+  return;
+}
+
+void _objc_msgSend(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_msgSend_0008c318)();
+  return;
+}
+
+void _objc_msgSendSuper2(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_msgSendSuper2_0008c320)();
+  return;
+}
+
+
+void _objc_opt_class(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e6f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_opt_class_0008c328)();
+  return;
+}
+
+void _objc_opt_isKindOfClass(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e700. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_opt_isKindOfClass_0008c330)();
+  return;
+}
+
+void _objc_opt_new(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e710. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_opt_new_0008c338)();
+  return;
+}
+
+void _objc_opt_respondsToSelector(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e720. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_opt_respondsToSelector_0008c340)();
+  return;
+}
+
+void _objc_opt_self(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e730. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_opt_self_0008c348)();
+  return;
+}
+
+void _objc_release(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e740. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_0008c350)();
+  return;
+}
+
+void _objc_release_x1(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e750. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x1_0008c358)();
+  return;
+}
+
+void _objc_release_x19(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e760. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x19_0008c360)();
+  return;
+}
+
+void _objc_release_x2(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e770. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x2_0008c368)();
+  return;
+}
+
+void _objc_release_x20(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e780. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x20_0008c370)();
+  return;
+}
+
+void _objc_release_x21(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e790. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x21_0008c378)();
+  return;
+}
+
+void _objc_release_x22(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x22_0008c380)();
+  return;
+}
+
+void _objc_release_x23(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x23_0008c388)();
+  return;
+}
+
+void _objc_release_x24(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x24_0008c390)();
+  return;
+}
+
+void _objc_release_x25(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x25_0008c398)();
+  return;
+}
+
+void _objc_release_x26(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x26_0008c3a0)();
+  return;
+}
+
+void _objc_release_x27(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e7f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x27_0008c3a8)();
+  return;
+}
+
+void _objc_release_x28(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e800. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x28_0008c3b0)();
+  return;
+}
+
+void _objc_release_x8(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e810. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x8_0008c3b8)();
+  return;
+}
+
+void _objc_release_x9(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e820. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_release_x9_0008c3c0)();
+  return;
+}
+
+void _objc_retain(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e830. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_0008c3c8)();
+  return;
+}
+
+
+void _objc_retain_x1(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e880. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x1_0008c3f0)();
+  return;
+}
+
+void _objc_retain_x19(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e890. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x19_0008c3f8)();
+  return;
+}
+
+void _objc_retain_x2(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x2_0008c400)();
+  return;
+}
+
+void _objc_retain_x20(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x20_0008c408)();
+  return;
+}
+
+void _objc_retain_x21(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x21_0008c410)();
+  return;
+}
+
+void _objc_retain_x22(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x22_0008c418)();
+  return;
+}
+
+
+void _objc_retain_x23(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x23_0008c420)();
+  return;
+}
+
+void _objc_retain_x24(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e8f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x24_0008c428)();
+  return;
+}
+
+void _objc_retain_x25(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e900. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x25_0008c430)();
+  return;
+}
+
+void _objc_retain_x26(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e910. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x26_0008c438)();
+  return;
+}
+
+void _objc_retain_x27(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e920. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x27_0008c440)();
+  return;
+}
+
+void _objc_retain_x28(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e930. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x28_0008c448)();
+  return;
+}
+
+void _objc_retain_x3(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e940. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x3_0008c450)();
+  return;
+}
+
+void _objc_retain_x4(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e950. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x4_0008c458)();
+  return;
+}
+
+void _objc_retain_x5(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e960. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x5_0008c460)();
+  return;
+}
+
+void _objc_retain_x7(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e970. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x7_0008c468)();
+  return;
+}
+
+
+void _objc_retain_x8(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e980. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x8_0008c470)();
+  return;
+}
+
+void _objc_retain_x9(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e990. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retain_x9_0008c478)();
+  return;
+}
+
+void _objc_retainAutorelease(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e840. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retainAutorelease_0008c3d0)();
+  return;
+}
+
+void _objc_retainAutoreleasedReturnValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e860. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retainAutoreleasedReturnValue_0008c3e0)();
+  return;
+}
+
+
+void _objc_retainAutoreleaseReturnValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e850. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_retainAutoreleaseReturnValue_0008c3d8)();
+  return;
+}
+
+void _objc_setAssociatedObject(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_setAssociatedObject_0008c480)();
+  return;
+}
+
+void _objc_setAssociatedObject(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_setAssociatedObject_0008c480)();
+  return;
+}
+
+
+void _objc_setProperty_nonatomic(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9b0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_setProperty_nonatomic_0008c488)();
+  return;
+}
+
+
+void _objc_storeStrong(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9c0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_storeStrong_0008c490)();
+  return;
+}
+
+void _objc_storeWeak(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_storeWeak_0008c498)();
+  return;
+}
+
+void _objc_unsafeClaimAutoreleasedReturnValue(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__objc_unsafeClaimAutoreleasedReturnValue_0008c4a0)();
+  return;
+}
+
+void _os_activity_scope_enter(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e9f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__os_activity_scope_enter_0008c5a0)();
+  return;
+}
+
+void _os_activity_scope_leave(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea00. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__os_activity_scope_leave_0008c5a8)();
+  return;
+}
+void _os_log_shim_legacy_logging_enabled(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__os_log_shim_legacy_logging_enabled_0008c5b0)();
+  return;
+}
+
+void _os_log_type_enabled(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea20. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__os_log_type_enabled_0008c5b8)();
+  return;
+}
+
+void _OSLogHandleForIDSCategory(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e310. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__OSLogHandleForIDSCategory_0008c0f8)();
+  return;
+}
+void _OSLogHandleForIMEventCategory(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e320. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__OSLogHandleForIMEventCategory_0008c100)();
+  return;
+}
+
+void _OSLogHandleForIMFoundationCategory(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e330. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__OSLogHandleForIMFoundationCategory_0008c108)();
+  return;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+int _pthread_mutex_lock(pthread_mutex_t *param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = (int)param_1;
+                    /* WARNING: Could not recover jumptable at 0x0005ea30. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__pthread_mutex_lock_0008c5c0)();
+  return iVar1;
+}
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+int _pthread_mutex_unlock(pthread_mutex_t *param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = (int)param_1;
+                    /* WARNING: Could not recover jumptable at 0x0005ea40. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__pthread_mutex_unlock_0008c5c8)();
+  return iVar1;
+}
+
+void _SMSCopySanitizedContentID(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e340. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__SMSCopySanitizedContentID_0008c208)();
+  return;
+}
+
+void _SMSCopySanitizedContentLocation(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e350. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__SMSCopySanitizedContentLocation_0008c210)();
+  return;
+}
+
+void _StringGUID(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e360. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__StringGUID_0008c110)();
+  return;
+}
+
+void _swift_allocObject(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea50. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_allocObject_0008c680)();
+  return;
+}
+
+void _swift_beginAccess(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea60. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_beginAccess_0008c688)();
+  return;
+}
+
+void _swift_bridgeObjectRelease(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea70. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_bridgeObjectRelease_0008c690)();
+  return;
+}
+
+void _swift_bridgeObjectRelease_n(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_bridgeObjectRelease_n_0008c698)();
+  return;
+}
+
+void _swift_bridgeObjectRetain(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ea90. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_bridgeObjectRetain_0008c6a0)();
+  return;
+}
+
+void _swift_deallocClassInstance(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eaa0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_deallocClassInstance_0008c6a8)();
+  return;
+}
+
+void _swift_dynamicCast(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eab0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_dynamicCast_0008c6b0)();
+  return;
+}
+void _swift_endAccess(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eac0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_endAccess_0008c6b8)();
+  return;
+}
+
+void _swift_getObjectType(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005ead0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_getObjectType_0008c6c0)();
+  return;
+}
+
+void _swift_getTypeByMangledNameInContext2(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eae0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_getTypeByMangledNameInContext2_0008c6c8)();
+  return;
+}
+
+void _swift_getTypeByMangledNameInContextInMetadataState2(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eaf0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_getTypeByMangledNameInContextInMetadataState2_0008c6d0)();
+  return;
+}
+
+void _swift_getWitnessTable(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb00. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_getWitnessTable_0008c6d8)();
+  return;
+}
+
+void _swift_isUniquelyReferenced_nonNull_native(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_isUniquelyReferenced_nonNull_native_0008c6e0)();
+  return;
+}
+
+
+void _swift_once(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb20. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_once_0008c6e8)();
+  return;
+}
+
+void _swift_release(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb30. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_release_0008c6f0)();
+  return;
+}
+void _swift_retain(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb40. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_retain_0008c6f8)();
+  return;
+}
+
+void _swift_slowAlloc(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb50. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_slowAlloc_0008c700)();
+  return;
+}
+
+
+void _swift_slowDealloc(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb60. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_slowDealloc_0008c708)();
+  return;
+}
+
+void _swift_unknownObjectRelease(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb70. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_unknownObjectRelease_0008c710)();
+  return;
+}
+
+void _swift_unknownObjectRetain(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005eb80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__swift_unknownObjectRetain_0008c718)();
+  return;
+}
+
+
+void _UTTypeConformsTo(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0005e370. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)PTR__UTTypeConformsTo_0008c000)();
+  return;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
